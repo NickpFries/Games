@@ -1,2 +1,2 @@
 # Games
-Games that I have coded in my free time.
+This repository includes games that I have coded in my free time. These codes were written for fun and to help me learn more coding. I taught myself Python primarily through coding games (Specifically SpaceInvaders and Galaxy). Several of these games were made with the help of a tutorial, although I made changes and added new features to all the programs to make them my own and to ensure I fully understood the code. The README file for each game outlines the changes and additions I made.
