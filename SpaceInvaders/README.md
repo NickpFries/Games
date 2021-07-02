@@ -20,10 +20,10 @@ Added a "Quit" option to the main menu.
 
 Added a pause menu with the ability to restart, resume, or quit.
 
-Lasers despawn after completely exiting screen rather than despawning when the first touch the border.
+Lasers despawn after completely exiting screen rather than despawning when they first touch the border.
 
 If an enemy dies, any lasers he shot no longer despawn but continue on as normal.
 
 Enemy spawning has been changed to make the game a better difficulty.
 
-Added additional enemy wave where 5 enemies spawn evenly across the screen at the end of every 8 waves.
+Added an additional enemy wave where 5 enemies spawn evenly across the screen at the end of every 8 waves.
