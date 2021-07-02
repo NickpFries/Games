@@ -1,0 +1,44 @@
+#:import menu menu
+
+MainWidget:
+
+
+<MainWidget>:
+        canvas.before:
+                Rectangle:
+                        size: self.size
+                        source: "assets/bg1.jpg"
+        menu_widget: menu_widget
+        pause: pause
+        perspective_point_x: self.width / 2
+        perspective_point_y: self.height * 0.75
+
+
+
+        Button:
+                id: pause
+                font_size: dp(10)
+                font_name: 'assets/Sackers-Gothic-Std-Light.ttf'
+                text: root.pause_txt
+                pos_hint: {"right": 1, "top": 1}
+                size_hint: None, None
+                size: "60dp", "60dp"
+                on_press: root.pause_pressed()
+                background_normal: ''
+                background_color: 1, 1, 1, .6
+
+        MenuWidget:
+                id: menu_widget
+        Label:
+                text: root.score_txt
+                font_size: dp(20)
+                font_name: 'assets/Eurostile.ttf'
+                size_hint: .2, .2
+                pos_hint: {"x": 0, "top": 1}
+
+        Label:
+                text: root.tilt
+                font_size: dp(30)
+                font_name: 'assets/Eurostile.ttf'
+                size_hint: .3, .3
+                pos_hint: {"x": 0.7, "top": 0.5}
