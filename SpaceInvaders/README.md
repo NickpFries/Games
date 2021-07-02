@@ -1,8 +1,6 @@
 SpaceInvaders was coded using Python and PyGame using this tutorial: https://www.youtube.com/watch?v=Q-__8Xw9KTM&list=PLSaDnN0zFg-VsOeyfGamc5FruPwqlllzN&index=10
+I did this as a day project to help myself learn Python and PyGame. This was my first program with PyGame and my second with Python. I changed much of the code and added some new elements.
 
-I did this as a day project to help myself learn Python and PyGame. This was my first program with PyGame and my second with Python.
-
-I changed much of the code and added some new elements.
 
 
 Changes I made:
