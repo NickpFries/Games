@@ -8,11 +8,13 @@ Player health switched to lives, rather than losing health for every tick the pl
 Through out the game, there are points where the player recieves and addition life or has their lives completely refiilled.
 
 After losing a life, the player is immune to damage for a short period.
+
     -During this period, the player's texture flashes white and red to indicate that damage was taken.
 
 The player cannot take damage immediatly from objects that randomly spawn in, rather the enemy will be harmless for about 1 second.
 
 Added in additional types of enemies and additional spawn waves including: Boss #2, missiles, crazy enemies, smart bullets, walls.
+
     -Walls and missiles spawn for Boss #2.
     -Missiles track the player and are fast, but cannot turn around.
     -Missiles despawn when hitting walls.
@@ -21,11 +23,13 @@ Added in additional types of enemies and additional spawn waves including: Boss 
     -Smart bullets are projectiles that slightly curve towards the player.
 
 Added in several difficulty levels.
+
     -Affects number of lives.
     -Affects Shield duration.
     -Affects enemy and player movement speed.
 
 Added in a shield:
+
     -Player can't take damage while shielding.
     -Shield has short duration but recharges.
     -Duration of shield changes based on difficulty level.
@@ -35,6 +39,7 @@ Added in a shield:
 Enemies spawn in beat with the music.
 
 Boss #1 changes:
+
     -Moves faster the longer he is alive.
     -Shoots bullets at a higher rate the longer he is alive.
     -Shoots shotgun-like wave of bullets in beat with music.
