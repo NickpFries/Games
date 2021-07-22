@@ -7,7 +7,7 @@ I made X-O Duel on my own without help from online. This was created using Pytho
     -If neither player gets 3 mini-board wins in a row on the main board, the winner is whoever won the most mini-boards.
 
 About the Computer Player:
-
+ 
   The Computer Player will check for severeal situations in the specified order:
   
     -Can either player play to win the main board.
