@@ -10,6 +10,7 @@ If neither player gets 3 mini-board wins in a row on the main board, the winner 
 About the Computer Player:
 
   The Computer Player will check for severeal situations in the specified order:
+  
     -Can either player play to win the main board.
     -Can either player play to win a mini-board.
     -Can either player play to cause two seperate moves on its next turn that would result in a win
