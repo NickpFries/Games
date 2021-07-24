@@ -223,7 +223,7 @@ def main(tp):
                     game_draw = False
                     break
             if game_draw:
-                tie_breaker(board)
+                tie_breaker(board, tp)
             if cur_mark == 1:
                 cur_mark = 2
             else:
@@ -279,7 +279,7 @@ def main(tp):
                     game_draw = False
                     break
             if game_draw:
-                tie_breaker(board)
+                tie_breaker(board, tp)
 
             # Toggle Player Turn
             if cur_mark == 1:
@@ -493,7 +493,7 @@ def win_menu(player, board, tp):
     pass
 
 
-def tie_breaker(board):
+def tie_breaker(board, tp):
     run = True
     title_font = pygame.font.SysFont("comicsans", int(HEIGHT * 0.3))
     small_font = pygame.font.SysFont("comicsans", int(HEIGHT * 0.05))
@@ -539,7 +539,7 @@ def tie_breaker(board):
         if keys[pygame.K_m]:
             start_menu()
         if keys[pygame.K_r]:
-            main()
+            main(tp)
     pass
 
 
